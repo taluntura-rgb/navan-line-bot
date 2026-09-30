@@ -1,0 +1,16 @@
+{
+  "name": "navan-line-bot",
+  "version": "1.0.0",
+  "description": "แอปนาวาน - ระบบแจ้งเตือนสภาพอากาศและคำแนะนำการเกษตรผ่าน LINE OA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.4.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
